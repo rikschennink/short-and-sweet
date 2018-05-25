@@ -1,5 +1,5 @@
 /*
- * short-and-sweet v1.0.0 - Accessible character counter for input elements
+ * short-and-sweet v0.0.1 - Accessible character counter for input elements
  * Copyright (c) 2018 Rik Schennink <hello@rikschennink.nl> (http://rikschennink.nl/)
  */
 'use strict';
