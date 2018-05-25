@@ -1,4 +1,4 @@
-# Short and Sweet, Accessible Character Counter
+# 📟 Short and Sweet, Accessible Character Counter
 
 Tested with VoiceOver (Safari 11) & NVDA (FF 60)
 - Tells user the amount of space left when the field is focussed
