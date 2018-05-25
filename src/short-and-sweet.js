@@ -20,11 +20,11 @@ export default ((w) => {
 
   let uid = 0;
 
-  const createCounter = ({ assistDelay }) => {
+  const createCounter = ({ assistDelay, counterClassName }) => {
 
     // create visual counter node
     const counterVisual = h('span', {
-      'className': 'short-and-sweet-counter',
+      'class': counterClassName,
       'aria-hidden': 'true'
     });
     
@@ -87,8 +87,7 @@ export default ((w) => {
     }
 
     // get label from options or element
-    // {maxlength} - {length} = {remaining}
-    const label = element.dataset.counterLabel || options.counterLabel || '{remaining} characters left';
+    const label = element.dataset.counterLabel || options.counterLabel;
 
     // create the counter element
     const counter = createCounter(options);
@@ -158,13 +157,15 @@ export default ((w) => {
 
   // default short and sweet options
   const defaultOptions = {
+    counterClassName: 'short-and-sweet-counter',
+    counterLabel: '{remaining} characters left', // {maxlength}, {length}, {remaining}
     assistDelay: 2000,
     append: (element, counter) => {
       element.parentNode.appendChild(counter);
     }
   };
 
-  // array of elements in, fitty instances out
+  // array of elements in, short and sweet instances out
   const createAtElements = (elements, options = {}) => 
     elements.map(
       element => create(
@@ -180,7 +181,7 @@ export default ((w) => {
       )
     );
 
-  // export our fitty function, we don't want to keep it to our selves
+  // export our short and sweet function
   return function shortAndSweet(target, options) {
 
     // if target is a string
@@ -189,7 +190,7 @@ export default ((w) => {
       // treat it as a querySelector
       createAtElements([...document.querySelectorAll(target)], options) :
 
-      // create single fitty
+      // create single short and sweet counter
       createAtElements([target], options)[0];
 
   };

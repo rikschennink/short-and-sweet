@@ -1,8 +1,8 @@
 # Short and Sweet, Accessible Character Counter
 
-Scales up (or down) text so it fits perfectly to its parent container. 
-
-Ideal for flexible and responsive websites.
+Tested with VoiceOver (Safari 11) & NVDA (FF 60)
+- Tells user the amount of space left when the field is focussed
+- Updates the user periodically while typing
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/rikschennink/short-and-sweet/blob/gh-pages/LICENSE)
 [![npm version](https://badge.fury.io/js/short-and-sweet.svg)](https://badge.fury.io/js/short-and-sweet)

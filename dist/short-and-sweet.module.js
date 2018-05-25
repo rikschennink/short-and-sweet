@@ -1,5 +1,5 @@
 /*
- * short-and-sweet v0.0.1 - Accessible character counter for input elements
+ * short-and-sweet v1.0.1 - Accessible character counter for input elements
  * Copyright (c) 2018 Rik Schennink <hello@rikschennink.nl> (http://rikschennink.nl/)
  */
 'use strict';
@@ -42,12 +42,13 @@ exports.default = function (w) {
   var uid = 0;
 
   var createCounter = function createCounter(_ref) {
-    var assistDelay = _ref.assistDelay;
+    var assistDelay = _ref.assistDelay,
+        counterClassName = _ref.counterClassName;
 
 
     // create visual counter node
     var counterVisual = h('span', {
-      'className': 'short-and-sweet-counter',
+      'class': counterClassName,
       'aria-hidden': 'true'
     });
 
@@ -110,8 +111,7 @@ exports.default = function (w) {
     }
 
     // get label from options or element
-    // {maxlength} - {length} = {remaining}
-    var label = element.dataset.counterLabel || options.counterLabel || '{remaining} characters left';
+    var label = element.dataset.counterLabel || options.counterLabel;
 
     // create the counter element
     var counter = createCounter(options);
@@ -180,13 +180,15 @@ exports.default = function (w) {
 
   // default short and sweet options
   var defaultOptions = {
+    counterClassName: 'short-and-sweet-counter',
+    counterLabel: '{remaining} characters left', // {maxlength}, {length}, {remaining}
     assistDelay: 2000,
     append: function append(element, counter) {
       element.parentNode.appendChild(counter);
     }
   };
 
-  // array of elements in, fitty instances out
+  // array of elements in, short and sweet instances out
   var createAtElements = function createAtElements(elements) {
     var options = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
     return elements.map(function (element) {
@@ -194,7 +196,7 @@ exports.default = function (w) {
     });
   };
 
-  // export our fitty function, we don't want to keep it to our selves
+  // export our short and sweet function
   return function shortAndSweet(target, options) {
 
     // if target is a string
@@ -203,7 +205,7 @@ exports.default = function (w) {
     // treat it as a querySelector
     createAtElements([].concat(_toConsumableArray(document.querySelectorAll(target))), options) :
 
-    // create single fitty
+    // create single short and sweet counter
     createAtElements([target], options)[0];
   };
 }(typeof window === 'undefined' ? null : window);
