@@ -1,0 +1,43 @@
+{
+  "name": "short-and-sweet",
+  "version": "1.0.0",
+  "description": "Accessible character counter for input elements",
+  "keywords": [
+    "character",
+    "count",
+    "counter",
+    "accessible",
+    "input",
+    "textarea",
+    "maxlength",
+    "text"
+  ],
+  "main": "dist/short-and-sweet.module.js",
+  "author": "Rik Schennink <hello@rikschennink.nl> (http://rikschennink.nl/)",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-header": "^1.8.9",
+    "gulp-rename": "^1.2.2",
+    "gulp-size": "^2.1.0",
+    "gulp-uglify": "^3.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rikschennink/short-and-sweet.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rikschennink/short-and-sweet/issues"
+  },
+  "homepage": "https://github.com/rikschennink/short-and-sweet"
+}
