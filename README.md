@@ -5,7 +5,7 @@ Scales up (or down) text so it fits perfectly to its parent container.
 Ideal for flexible and responsive websites.
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/rikschennink/short-and-sweet/blob/gh-pages/LICENSE)
-[![npm version](https://badge.fury.io/js/fitty.svg)](https://badge.fury.io/js/fitty)
+[![npm version](https://badge.fury.io/js/short-and-sweet.svg)](https://badge.fury.io/js/short-and-sweet)
 [![Donate with PayPal](https://img.shields.io/badge/donate-PayPal.me-pink.svg)](https://www.paypal.me/rikschennink/5)
 
 
