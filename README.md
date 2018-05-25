@@ -8,8 +8,13 @@ Tested with VoiceOver (Safari 11) & NVDA (FF 60)
 - Tells user the amount of space left when the field is focussed
 - Updates the user periodically while typing
 
-Play around with the demo at:
+Play around with the demo
+
 https://codepen.io/rikschennink/pen/LmoJYY
+
+View a video of Short and Sweet with VoiceOver
+
+http://www.youtube.com/watch?v=3NDCEvHHaCY (sound is off)
 
 ## Features
 
