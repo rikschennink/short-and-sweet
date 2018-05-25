@@ -1,4 +1,4 @@
-# 📟 Short and Sweet, Accessible Character Counter
+# Short and Sweet, Accessible Character Counter
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/rikschennink/short-and-sweet/blob/gh-pages/LICENSE)
 [![npm version](https://badge.fury.io/js/short-and-sweet.svg)](https://badge.fury.io/js/short-and-sweet)
