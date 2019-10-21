@@ -2,7 +2,6 @@
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/rikschennink/short-and-sweet/blob/gh-pages/LICENSE)
 [![npm version](https://badge.fury.io/js/short-and-sweet.svg)](https://badge.fury.io/js/short-and-sweet)
-[![Donate with PayPal](https://img.shields.io/badge/donate-PayPal.me-pink.svg)](https://www.paypal.me/rikschennink/5)
 
 Tested with VoiceOver (Safari 11) & NVDA (FF 60)
 - Tells user the amount of space left when the field is focussed
