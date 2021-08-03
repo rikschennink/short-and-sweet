@@ -101,7 +101,7 @@ export default ((w) => {
     // assist timer
     let isFirstUpdate = true;
     
-    const limit = (maxlength) => {
+    const limit = (element, maxlength) => {
       element.value = element.value.substr(0, maxlength);
     }
 
