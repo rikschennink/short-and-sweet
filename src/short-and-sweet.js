@@ -101,7 +101,7 @@ export default ((w) => {
     // assist timer
     let isFirstUpdate = true;
     
-    const limit = (element, maxlength) => {
+    const limit = (maxlength) => {
       element.value = element.value.substr(0, maxlength);
     }
 
@@ -115,7 +115,7 @@ export default ((w) => {
       
       // limit textarea value to the maxlength
       if (overflowing) {
-        limit(element, maxlength);
+        limit(maxlength);
       }
 
       // current length (after limiting)
