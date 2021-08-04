@@ -22,13 +22,6 @@ http://www.youtube.com/watch?v=3NDCEvHHaCY (sound is off)
 - Accessible
 
 
-## Time to learn ES6?
-
-Short and Sweet is written in ES6.
-
-If you want to learn how to write modern ES6 JavaScript as well, I highly recommend [ES6 for Everyone](http://bit.ly/es6-course) by Wes Bos. 
-
-
 ## Installation
 
 Install from npm:
