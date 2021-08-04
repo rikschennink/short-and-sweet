@@ -115,7 +115,7 @@ export default ((w) => {
       
       // limit textarea value to the maxlength
       if (overflowing) {
-        limit(element, maxlength);
+        limit(maxlength);
       }
 
       // current length (after limiting)
