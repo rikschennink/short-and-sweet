@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<p>
+    <label for="my-textarea">My textarea</label>
+    <textarea
+        id="my-textarea"
+        maxlength="160"
+        data-counter-label="Still {remaining} characters left to type"
+    ></textarea>
+</p>
+
+<p>
+    <label for="my-text-field">My input</label>
+    <input id="my-text-field" type="text" maxlength="30" />
+</p>
+
+<script src="./dist/short-and-sweet.min.js"></script>
+
+<script>
+    shortAndSweet('textarea, input');
+</script>
