@@ -16,6 +16,14 @@ View a video of Short and Sweet with VoiceOver:
 
 http://www.youtube.com/watch?v=3NDCEvHHaCY (sound is off)
 
+---
+
+[<img src="https://github.com/rikschennink/short-and-sweet/blob/master/header.svg" alt=""/>](https://www.buymeacoffee.com/rikschennink/)
+
+[Buy me a Coffee](https://www.buymeacoffee.com/rikschennink/) / [Dev updates on Twitter](https://twitter.com/rikschennink/)
+
+---
+
 ## Features
 
 -   No dependencies
